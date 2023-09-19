@@ -8,8 +8,9 @@ body {
 }
 .max-content {
   max-width: 1024px;
-  margin: 0 15px;
+  margin: 0 auto;
   text-align: center;
+  padding: 0 15px;
 }
 /* Header Menu */
 .header-menu {
