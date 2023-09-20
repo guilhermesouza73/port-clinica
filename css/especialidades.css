@@ -180,8 +180,18 @@ body {
   .especialidades-imagem-table {
     display: none;
   }
+  .especialidades-box-table {
+    height: auto;
+  }
+  .especialidades-box-table td,
+  .especialidades th {
+    padding: 15px 0;
+  }
 
   /* Footer */
+  .footer {
+    margin-top: 100px;
+  }
   .footer-imagem {
     width: 150px;
   }
