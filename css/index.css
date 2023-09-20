@@ -185,7 +185,6 @@ body {
 }
 
 /* Media queries */
-
 /* Até 1024px */
 @media only screen and (max-width: 1024px) {
   /* Header Menu */
@@ -258,5 +257,13 @@ body {
   }
   .contato iframe {
     height: 300px;
+  }
+}
+
+/* Acima de 1024px */
+@media only screen and (min-width: 1024px) {
+  /* Contato */
+  .contato-iframe {
+    max-width: calc(1024px - 30px);
   }
 }
