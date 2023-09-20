@@ -229,3 +229,17 @@ body {
     margin: 15px auto;
   }
 }
+
+/* Até 450px */
+@media only screen and (max-width: 450px) {
+  /* Especialidades */
+  .especialidades-box-table td,
+  .especialidades th {
+    padding: 10px 0;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 130px;
+  }
+}
